@@ -1,0 +1,106 @@
+#profilephoto{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+#loginh1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(67, 0, 253);
+    font-size: 40px;
+    text-align: center;
+}
+#na{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(14, 8, 104);
+    font-size: 30px;
+    text-align: center;
+}
+#table1{
+    background-color: rgb(246, 248, 248);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    border-spacing: 4px;
+}
+th{
+    background-color: black;
+    color: rgb(233, 236, 15);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tr1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    font-weight: bold;
+}
+#td1{
+    border: 2px solid rgb(115, 255, 0);
+    border-radius: 10px;
+}
+body{
+    background-image: url("../../imges/3.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginlabels{
+    background-color: #343A40;
+    border-radius: 4px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+.loginlabels:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    animation:slidebg 2s linear infinite;
+}
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+#linktable{
+    text-align: center;
+    /* border: 5px solid pink; */
+    width: 100%;
+    height: 70px;
+    /* font-size: 35px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+a:link {
+    color: red;
+  }
+  a:visited {
+    color: rgb(6, 245, 6);
+  }
+  a:hover {
+    color: rgb(250, 243, 247);
+  }
+  a:active {
+    color: blue;
+  }
+#linkbutton{
+    font-size: 40px;
+    background-color: #343A40;
+    color: #fff;
+}
+#deletebutton{
+    background-color: #343A40;
+    font-size: large;
+    color: #fff;
+    border-radius: 5px;
+    height: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#deletebutton:hover{
+    background-color: #7cb7f3;
+    color: rgb(235, 68, 17);
+}

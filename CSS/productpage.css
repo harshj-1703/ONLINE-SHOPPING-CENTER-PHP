@@ -1,0 +1,71 @@
+#profilephoto{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+#loginh1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(47, 2, 168);
+    font-size: 40px;
+    text-align: center;
+}
+.loginlabels{
+    background-color: #343A40;
+    border-radius: 4px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+.loginlabels:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    animation:slidebg 2s linear infinite;
+}
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+#na{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(11, 19, 133);
+    font-size: 30px;
+    text-align: center;
+}
+#na2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(233, 50, 4);
+    font-size: 50px;
+    text-align: center;
+}
+#table2{
+    padding-left: 3%;
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: rgba(81, 224, 243, 0.26);
+    border: 2px solid rgb(247, 82, 172);
+    border-radius: 18px;
+}
+.td1{
+    padding: 30px;
+}
+.lap{
+    height: 280px;
+    width: 300px;
+    border: 4px solid rgb(11, 11, 173);
+    border-radius: 9px;
+}
+.p1{
+    color: green;
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgba(155, 234, 245, 0.384);
+}
+.buy{
+    padding-left: 50%;
+}
